@@ -7,7 +7,14 @@ A great module has a working travis build
 ## Usage
 
 ```puppet
+# for release, beta, aurora, and nightly
 include thunderbird
+
+# from a specific channel, name it directly
+include thunderbird::nightly
+
+# bonus! Earlybird nightly builds
+include thunderbird::earlybird
 ```
 
 ## Required Puppet Modules
