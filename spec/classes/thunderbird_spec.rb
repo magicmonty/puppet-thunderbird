@@ -7,4 +7,5 @@ it do
       :source   => "http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/17.0.8/mac/en-US/Thunderbird%2017.0.8.dmg",
       :provider => 'appdmg'
     })
-  endend
+  end
+end
